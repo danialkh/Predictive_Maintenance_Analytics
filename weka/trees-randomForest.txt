@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 30 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 10
+Relation:     dataset-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    50000
+Attributes:   20
+              Vehicle_Model
+              Mileage
+              Maintenance_History
+              Reported_Issues
+              Vehicle_Age
+              Fuel_Type
+              Transmission_Type
+              Engine_Size
+              Odometer_Reading
+              Last_Service_Date
+              Warranty_Expiry_Date
+              Owner_Type
+              Insurance_Premium
+              Service_History
+              Accident_History
+              Fuel_Efficiency
+              Tire_Condition
+              Brake_Condition
+              Battery_Status
+              Need_Maintenance
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 30 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 10 -do-not-check-capabilities
+
+Time taken to build model: 2.62 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.16 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        8678               86.78   %
+Incorrectly Classified Instances      1322               13.22   %
+Kappa statistic                          0.3901
+Mean absolute error                      0.2143
+Root mean squared error                  0.2848
+Relative absolute error                 70.2906 %
+Root relative squared error             73.5585 %
+Total Number of Instances            10000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.283    0.001    0.990      0.283    0.440      0.490    0.982     0.927     0
+                 0.999    0.717    0.861      0.999    0.925      0.490    0.982     0.996     1
+Weighted Avg.    0.868    0.586    0.885      0.868    0.836      0.490    0.982     0.983     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  519 1317 |    a = 0
+    5 8159 |    b = 1
+

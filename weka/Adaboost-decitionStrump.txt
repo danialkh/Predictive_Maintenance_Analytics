@@ -1,0 +1,2365 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 24 -I 100 -W weka.classifiers.trees.DecisionStump
+Relation:     dataset-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    50000
+Attributes:   20
+              Vehicle_Model
+              Mileage
+              Maintenance_History
+              Reported_Issues
+              Vehicle_Age
+              Fuel_Type
+              Transmission_Type
+              Engine_Size
+              Odometer_Reading
+              Last_Service_Date
+              Warranty_Expiry_Date
+              Owner_Type
+              Insurance_Premium
+              Service_History
+              Accident_History
+              Fuel_Efficiency
+              Tire_Condition
+              Brake_Condition
+              Battery_Status
+              Need_Maintenance
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.28521686927810297	0.714783130721897	
+Brake_Condition is missing
+0	1	
+0.19004	0.80996	
+
+
+Weight: 1.45
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.6297211985508114	0.3702788014491887	
+Brake_Condition is missing
+0	1	
+0.4999999999999902	0.5000000000000099	
+
+
+Weight: 0.88
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.4917949738090912	0.5082050261909088	
+Battery_Status is missing
+0	1	
+0.3541087386113294	0.6458912613886706	
+
+
+Weight: 0.6
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 0
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.6383486716705211	0.36165132832947894	
+Battery_Status is missing
+0	1	
+0.5000000000000874	0.49999999999991257	
+
+
+Weight: 0.93
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.41459499551659507	0.585405004483405	
+Brake_Condition is missing
+0	1	
+0.34880686938059235	0.6511931306194078	
+
+
+Weight: 0.62
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5693711897068594	0.43062881029314054	
+Brake_Condition is missing
+0	1	
+0.5000000000002289	0.499999999999771	
+
+
+Weight: 0.5
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.471883291155447	0.5281167088445531	
+Reported_Issues is missing
+0	1	
+0.40203380823111873	0.5979661917688813	
+
+
+Weight: 0.4
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5706276547201186	0.42937234527988144	
+Reported_Issues is missing
+0	1	
+0.49999999999962325	0.5000000000003767	
+
+
+Weight: 0.51
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.4779690860298316	0.5220309139701684	
+Reported_Issues is missing
+0	1	
+0.400787547565743	0.599212452434257	
+
+
+Weight: 0.4
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5778622856254366	0.4221377143745634	
+Reported_Issues is missing
+0	1	
+0.4999999999998109	0.5000000000001891	
+
+
+Weight: 0.55
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.46722790164567035	0.5327720983543297	
+Battery_Status is missing
+0	1	
+0.39386084974701946	0.6061391502529806	
+
+
+Weight: 0.43
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.574402255921597	0.4255977440784029	
+Battery_Status is missing
+0	1	
+0.49999999999994565	0.5000000000000544	
+
+
+Weight: 0.53
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.45013416517044486	0.5498658348295552	
+Reported_Issues is missing
+0	1	
+0.3971217371879864	0.6028782628120136	
+
+
+Weight: 0.42
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5541230570265883	0.4458769429734117	
+Reported_Issues is missing
+0	1	
+0.5000000000000062	0.4999999999999937	
+
+
+Weight: 0.4
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.4720573832408113	0.5279426167591887	
+Reported_Issues is missing
+0	1	
+0.41828868342654346	0.5817113165734565	
+
+
+Weight: 0.33
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5542642908077438	0.4457357091922562	
+Reported_Issues is missing
+0	1	
+0.49999999999994454	0.5000000000000554	
+
+
+Weight: 0.4
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.47163607997355034	0.5283639200264497	
+Brake_Condition is missing
+0	1	
+0.4181278298763207	0.5818721701236793	
+
+
+Weight: 0.33
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5540099410261408	0.4459900589738592	
+Brake_Condition is missing
+0	1	
+0.4999999999999447	0.5000000000000552	
+
+
+Weight: 0.4
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.469059785523087	0.5309402144769131	
+Battery_Status is missing
+0	1	
+0.4184176616469321	0.5815823383530679	
+
+
+Weight: 0.33
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5511586575028011	0.4488413424971989	
+Battery_Status is missing
+0	1	
+0.49999999999998634	0.5000000000000137	
+
+
+Weight: 0.38
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.4644159988325004	0.5355840011674997	
+Reported_Issues is missing
+0	1	
+0.4217130244186186	0.5782869755813814	
+
+
+Weight: 0.32
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5431841780995019	0.45681582190049813	
+Reported_Issues is missing
+0	1	
+0.5000000000000163	0.4999999999999836	
+
+
+Weight: 0.32
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.47328039742115596	0.5267196025788441	
+Reported_Issues is missing
+0	1	
+0.4314049650399326	0.5685950349600675	
+
+
+Weight: 0.28
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5421847022827021	0.45781529771729784	
+Reported_Issues is missing
+0	1	
+0.5000000000001432	0.4999999999998567	
+
+
+Weight: 0.31
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.47294717399431707	0.527052826005683	
+Brake_Condition is missing
+0	1	
+0.43267189246473053	0.5673281075352695	
+
+
+Weight: 0.27
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5405708671675266	0.4594291328324735	
+Brake_Condition is missing
+0	1	
+0.4999999999999667	0.5000000000000333	
+
+
+Weight: 0.3
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.4732485720634933	0.5267514279365066	
+Battery_Status is missing
+0	1	
+0.4347433732731016	0.5652566267268985	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 0
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5387759648303837	0.4612240351696163	
+Battery_Status is missing
+0	1	
+0.5000000000001105	0.4999999999998895	
+
+
+Weight: 0.29
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.4718559691536436	0.5281440308463564	
+Reported_Issues is missing
+0	1	
+0.43708549430109656	0.5629145056989034	
+
+
+Weight: 0.25
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5350184993678786	0.4649815006321214	
+Reported_Issues is missing
+0	1	
+0.4999999999999193	0.5000000000000807	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.47587301701516066	0.5241269829848394	
+Reported_Issues is missing
+0	1	
+0.44212349201401163	0.5578765079859884	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5339390932350023	0.4660609067649977	
+Reported_Issues is missing
+0	1	
+0.49999999999996936	0.5000000000000308	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.475678554092107	0.524321445907893	
+Brake_Condition is missing
+0	1	
+0.4436056517825436	0.5563943482174565	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5322498367938092	0.46775016320619084	
+Brake_Condition is missing
+0	1	
+0.5000000000000805	0.49999999999991945	
+
+
+Weight: 0.24
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.4768361450184104	0.5231638549815897	
+Battery_Status is missing
+0	1	
+0.44595749768932114	0.5540425023106789	
+
+
+Weight: 0.22
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 0
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5310340450571618	0.4689659549428382	
+Battery_Status is missing
+0	1	
+0.5000000000001001	0.49999999999989997	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(0.5-1]' : 0
+Reported_Issues != '(0.5-1]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(0.5-1]'
+0	1	
+0.719327968238749	0.280672031761251	
+Reported_Issues != '(0.5-1]'
+0	1	
+0.37484252526214673	0.6251574747378533	
+Reported_Issues is missing
+0	1	
+0.44767504074489217	0.5523249592551078	
+
+
+Weight: 0.6
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(-inf-0.5]' : 0
+Reported_Issues != '(-inf-0.5]' : 1
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(-inf-0.5]'
+0	1	
+0.8129136445727388	0.1870863554272613	
+Reported_Issues != '(-inf-0.5]'
+0	1	
+0.44056256522204074	0.5594374347779592	
+Reported_Issues is missing
+0	1	
+0.534287183167435	0.46571281683256505	
+
+
+Weight: 0.5
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.6303388054208615	0.36966119457913854	
+Brake_Condition is missing
+0	1	
+0.6016618279043957	0.3983381720956043	
+
+
+Weight: 0.61
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.49460710931972124	0.5053928906802787	
+Battery_Status is missing
+0	1	
+0.4648504229830745	0.5351495770169254	
+
+
+Weight: 0.14
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 0
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5297792659083592	0.47022073409164084	
+Battery_Status is missing
+0	1	
+0.5000000000000546	0.4999999999999454	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+Maintenance_History = Good : 0
+Maintenance_History != Good : 1
+Maintenance_History is missing : 1
+
+Class distributions
+
+Maintenance_History = Good
+0	1	
+0.6426658415323664	0.35733415846763367	
+Maintenance_History != Good
+0	1	
+0.3491196621518843	0.6508803378481156	
+Maintenance_History is missing
+0	1	
+0.44946995420415775	0.5505300457958422	
+
+
+Weight: 0.61
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5240439868550242	0.4759560131449759	
+Reported_Issues is missing
+0	1	
+0.49594829690756437	0.5040517030924357	
+
+
+Weight: 0.2
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.47854486777348765	0.5214551322265123	
+Reported_Issues is missing
+0	1	
+0.4512218141996653	0.5487781858003347	
+
+
+Weight: 0.2
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5274379133353904	0.4725620866646097	
+Reported_Issues is missing
+0	1	
+0.5000000000000095	0.49999999999999045	
+
+
+Weight: 0.21
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.47954488474728946	0.5204551152527106	
+Battery_Status is missing
+0	1	
+0.4528812194348587	0.5471187805651413	
+
+
+Weight: 0.19
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 0
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5267668590581803	0.47323314094181973	
+Battery_Status is missing
+0	1	
+0.5000000000000371	0.499999999999963	
+
+
+Weight: 0.2
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.4778266196253132	0.5221733803746869	
+Reported_Issues is missing
+0	1	
+0.45387414710408436	0.5461258528959155	
+
+
+Weight: 0.19
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5240508661617469	0.4759491338382531	
+Reported_Issues is missing
+0	1	
+0.4999999999999674	0.5000000000000325	
+
+
+Weight: 0.18
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.4810635811953008	0.5189364188046992	
+Reported_Issues is missing
+0	1	
+0.4579642455082407	0.5420357544917592	
+
+
+Weight: 0.17
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5231731195161728	0.4768268804838271	
+Reported_Issues is missing
+0	1	
+0.49999999999999933	0.5000000000000008	
+
+
+Weight: 0.18
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.48175614799754113	0.5182438520024589	
+Battery_Status is missing
+0	1	
+0.4593110942263832	0.5406889057736168	
+
+
+Weight: 0.16
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5225118981138461	0.4774881018861538	
+Battery_Status is missing
+0	1	
+0.49999999999998973	0.5000000000000102	
+
+
+Weight: 0.17
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(2.5-3]' : 1
+Reported_Issues != '(2.5-3]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(2.5-3]'
+0	1	
+0.23734773870039466	0.7626522612996054	
+Reported_Issues != '(2.5-3]'
+0	1	
+0.5206209791559535	0.47937902084404654	
+Reported_Issues is missing
+0	1	
+0.46033395196409055	0.5396660480359095	
+
+
+Weight: 0.29
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.43917448468441933	0.5608255153155807	
+Reported_Issues is missing
+0	1	
+0.4171817735185925	0.5828182264814076	
+
+
+Weight: 0.33
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5224449739160687	0.4775550260839314	
+Reported_Issues is missing
+0	1	
+0.5000000000000238	0.4999999999999762	
+
+
+Weight: 0.17
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.4821138102531444	0.5178861897468556	
+Reported_Issues is missing
+0	1	
+0.4604378770711097	0.5395621229288904	
+
+
+Weight: 0.16
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.521737460249256	0.4782625397507439	
+Reported_Issues is missing
+0	1	
+0.5000000000000521	0.499999999999948	
+
+
+Weight: 0.17
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.48252559684077756	0.5174744031592224	
+Brake_Condition is missing
+0	1	
+0.4615410755501453	0.5384589244498548	
+
+
+Weight: 0.15
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5210410836582051	0.47895891634179494	
+Brake_Condition is missing
+0	1	
+0.49999999999993927	0.5000000000000607	
+
+
+Weight: 0.16
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.48290124628454323	0.5170987537154567	
+Battery_Status is missing
+0	1	
+0.46263502950398344	0.5373649704960165	
+
+
+Weight: 0.15
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5203181413697089	0.479681858630291	
+Battery_Status is missing
+0	1	
+0.4999999999999097	0.5000000000000904	
+
+
+Weight: 0.16
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.4833445481887209	0.516655451811279	
+Reported_Issues is missing
+0	1	
+0.4637793366154187	0.5362206633845812	
+
+
+Weight: 0.15
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5196125383159504	0.4803874616840496	
+Reported_Issues is missing
+0	1	
+0.4999999999999477	0.5000000000000524	
+
+
+Weight: 0.15
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.4839013601613409	0.5160986398386592	
+Reported_Issues is missing
+0	1	
+0.46490476340278575	0.5350952365972144	
+
+
+Weight: 0.14
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.519039625212879	0.48096037478712095	
+Reported_Issues is missing
+0	1	
+0.5000000000000031	0.4999999999999969	
+
+
+Weight: 0.15
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.48420970355589127	0.5157902964441087	
+Brake_Condition is missing
+0	1	
+0.46582484269436736	0.5341751573056327	
+
+
+Weight: 0.14
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5184246312287696	0.48157536877123036	
+Brake_Condition is missing
+0	1	
+0.5000000000000102	0.4999999999999898	
+
+
+Weight: 0.14
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.48464195289364553	0.5153580471063545	
+Battery_Status is missing
+0	1	
+0.46681884122719847	0.5331811587728015	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5178595163472931	0.48214048365270695	
+Battery_Status is missing
+0	1	
+0.49999999999992195	0.500000000000078	
+
+
+Weight: 0.14
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.48506430486474605	0.514935695135254	
+Reported_Issues is missing
+0	1	
+0.4677380628670108	0.5322619371329893	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5173597013957788	0.48264029860422125	
+Reported_Issues is missing
+0	1	
+0.5000000000000513	0.4999999999999487	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.4854153015180412	0.5145846984819588	
+Reported_Issues is missing
+0	1	
+0.4685557716927913	0.5314442283072087	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5168905140942617	0.4831094859057384	
+Reported_Issues is missing
+0	1	
+0.4999999999999248	0.5000000000000753	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Service_History = '(7.3-8.2]' : 1
+Service_History != '(7.3-8.2]' : 0
+Service_History is missing : 1
+
+Class distributions
+
+Service_History = '(7.3-8.2]'
+0	1	
+0.20621085237224382	0.7937891476277561	
+Service_History != '(7.3-8.2]'
+0	1	
+0.5088750624386797	0.49112493756132036	
+Service_History is missing
+0	1	
+0.4693274251574439	0.5306725748425561	
+
+
+Weight: 0.18
+
+Decision Stump
+
+Classifications
+
+Service_History = '(9.1-inf)' : 1
+Service_History != '(9.1-inf)' : 1
+Service_History is missing : 1
+
+Class distributions
+
+Service_History = '(9.1-inf)'
+0	1	
+0.17888184605980606	0.8211181539401939	
+Service_History != '(9.1-inf)'
+0	1	
+0.4754917695044086	0.5245082304955914	
+Service_History is missing
+0	1	
+0.43471720815276677	0.5652827918472332	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+Service_History = '(9.1-inf)' : 1
+Service_History != '(9.1-inf)' : 0
+Service_History is missing : 0
+
+Class distributions
+
+Service_History = '(9.1-inf)'
+0	1	
+0.22074827540771283	0.7792517245922872	
+Service_History != '(9.1-inf)'
+0	1	
+0.5410371937631381	0.4589628062368618	
+Service_History is missing
+0	1	
+0.5000000000000769	0.4999999999999232	
+
+
+Weight: 0.29
+
+Decision Stump
+
+Classifications
+
+Service_History = '(8.2-9.1]' : 1
+Service_History != '(8.2-9.1]' : 1
+Service_History is missing : 1
+
+Class distributions
+
+Service_History = '(8.2-9.1]'
+0	1	
+0.18498689865346812	0.8150131013465319	
+Service_History != '(8.2-9.1]'
+0	1	
+0.4899998937476841	0.510000106252316	
+Service_History is missing
+0	1	
+0.44566549140862843	0.5543345085913716	
+
+
+Weight: 0.22
+
+Decision Stump
+
+Classifications
+
+Service_History = '(8.2-9.1]' : 1
+Service_History != '(8.2-9.1]' : 0
+Service_History is missing : 0
+
+Class distributions
+
+Service_History = '(8.2-9.1]'
+0	1	
+0.22016252231726038	0.7798374776827397	
+Service_History != '(8.2-9.1]'
+0	1	
+0.5444309687592866	0.45556903124071335	
+Service_History is missing
+0	1	
+0.500000000000051	0.49999999999994904	
+
+
+Weight: 0.31
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.4604569869488168	0.5395430130511831	
+Brake_Condition is missing
+0	1	
+0.4429876750533015	0.5570123249466985	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5176282794259078	0.4823717205740921	
+Brake_Condition is missing
+0	1	
+0.5000000000001149	0.499999999999885	
+
+
+Weight: 0.14
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.4852150449294987	0.5147849550705013	
+Battery_Status is missing
+0	1	
+0.46811582050123607	0.5318841794987639	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 0
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.517131528059855	0.482868471940145	
+Battery_Status is missing
+0	1	
+0.50000000000007	0.49999999999993	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.4856667694620599	0.5143332305379401	
+Reported_Issues is missing
+0	1	
+0.46893054710482407	0.5310694528951759	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5167660878317195	0.48323391216828043	
+Reported_Issues is missing
+0	1	
+0.49999999999990846	0.5000000000000915	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.48589291681221086	0.5141070831877892	
+Reported_Issues is missing
+0	1	
+0.46953272626132553	0.5304672737386745	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5163883657153941	0.48361163428460574	
+Reported_Issues is missing
+0	1	
+0.5000000000000219	0.4999999999999782	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 1
+Brake_Condition is missing : 1
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.48585647728431175	0.5141435227156883	
+Brake_Condition is missing
+0	1	
+0.47015767061566077	0.5298423293843392	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5157253558286367	0.4842746441713634	
+Brake_Condition is missing
+0	1	
+0.5000000000000037	0.49999999999999634	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 1
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.4865609000782533	0.5134390999217467	
+Battery_Status is missing
+0	1	
+0.471260885182873	0.528739114817127	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Battery_Status = Weak : 1
+Battery_Status != Weak : 0
+Battery_Status is missing : 1
+
+Class distributions
+
+Battery_Status = Weak
+0	1	
+0.0	1.0	
+Battery_Status != Weak
+0	1	
+0.5153236886357042	0.48467631136429573	
+Battery_Status is missing
+0	1	
+0.4999999999999382	0.5000000000000617	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Maintenance_History = Poor : 1
+Maintenance_History != Poor : 0
+Maintenance_History is missing : 1
+
+Class distributions
+
+Maintenance_History = Poor
+0	1	
+0.32634180821170655	0.6736581917882934	
+Maintenance_History != Poor
+0	1	
+0.541558462833824	0.45844153716617597	
+Maintenance_History is missing
+0	1	
+0.4719331488559797	0.5280668511440203	
+
+
+Weight: 0.34
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.45612730653800077	0.5438726934619993	
+Reported_Issues is missing
+0	1	
+0.44048789792324555	0.5595121020767544	
+
+
+Weight: 0.24
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(3.5-4]' : 1
+Reported_Issues != '(3.5-4]' : 0
+Reported_Issues is missing : 0
+
+Class distributions
+
+Reported_Issues = '(3.5-4]'
+0	1	
+0.0	1.0	
+Reported_Issues != '(3.5-4]'
+0	1	
+0.5158044677072978	0.4841955322927023	
+Reported_Issues is missing
+0	1	
+0.5000000000000105	0.4999999999999894	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.48663244017706014	0.5133675598229399	
+Reported_Issues is missing
+0	1	
+0.4711288258248926	0.5288711741751073	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(4.5-inf)' : 1
+Reported_Issues != '(4.5-inf)' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(4.5-inf)'
+0	1	
+0.0	1.0	
+Reported_Issues != '(4.5-inf)'
+0	1	
+0.5155275850396623	0.4844724149603376	
+Reported_Issues is missing
+0	1	
+0.4999999999999565	0.5000000000000435	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Service_History = '(7.3-8.2]' : 1
+Service_History != '(7.3-8.2]' : 0
+Service_History is missing : 1
+
+Class distributions
+
+Service_History = '(7.3-8.2]'
+0	1	
+0.225462303410414	0.7745376965895859	
+Service_History != '(7.3-8.2]'
+0	1	
+0.5106696047083084	0.48933039529169164	
+Service_History is missing
+0	1	
+0.4715915204160906	0.5284084795839095	
+
+
+Weight: 0.19
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(2.5-3]' : 1
+Reported_Issues != '(2.5-3]' : 1
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(2.5-3]'
+0	1	
+0.2559099591360784	0.7440900408639216	
+Reported_Issues != '(2.5-3]'
+0	1	
+0.48865577052096804	0.5113442294790319	
+Reported_Issues is missing
+0	1	
+0.4370468382669849	0.5629531617330151	
+
+
+Weight: 0.25
+
+Decision Stump
+
+Classifications
+
+Brake_Condition = Worn Out : 1
+Brake_Condition != Worn Out : 0
+Brake_Condition is missing : 0
+
+Class distributions
+
+Brake_Condition = Worn Out
+0	1	
+0.0	1.0	
+Brake_Condition != Worn Out
+0	1	
+0.5152357043724808	0.4847642956275192	
+Brake_Condition is missing
+0	1	
+0.5000000000000102	0.4999999999999898	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+Reported_Issues = '(2.5-3]' : 1
+Reported_Issues != '(2.5-3]' : 0
+Reported_Issues is missing : 1
+
+Class distributions
+
+Reported_Issues = '(2.5-3]'
+0	1	
+0.28301647910467365	0.7169835208953264	
+Reported_Issues != '(2.5-3]'
+0	1	
+0.5243467190265689	0.475653280973431	
+Reported_Issues is missing
+0	1	
+0.47208080304206484	0.5279191969579352	
+
+
+Weight: 0.27
+
+Number of performed Iterations: 100
+
+
+Time taken to build model: 5.35 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.05 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        9696               96.96   %
+Incorrectly Classified Instances       304                3.04   %
+Kappa statistic                          0.8996
+Mean absolute error                      0.0945
+Root mean squared error                  0.1931
+Relative absolute error                 30.9942 %
+Root relative squared error             49.8649 %
+Total Number of Instances            10000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.930    0.022    0.907      0.930    0.918      0.900    0.987     0.923     0
+                 0.978    0.070    0.984      0.978    0.981      0.900    0.987     0.997     1
+Weighted Avg.    0.970    0.061    0.970      0.970    0.970      0.900    0.987     0.984     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1708  128 |    a = 0
+  176 7988 |    b = 1
+
